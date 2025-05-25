@@ -221,7 +221,7 @@ def main():
             if board.is_checkmate():
                 game_over_display = True
                 if not game_result_printed:
-                    print("Las piezas blancas han dado jaque mate")
+                    print("Las piezas blancas han dado jaque mate.")
                     game_result_printed = True
             elif board.is_stalemate():
                 game_over_display = True
