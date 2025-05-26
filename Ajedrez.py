@@ -11,7 +11,7 @@ BROWN = (72, 114, 144)
 
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("IA blanca ataca con todo")
+pygame.display.set_caption("IA COMIENZA")
 clock = pygame.time.Clock()
 
 pygame.font.init()
